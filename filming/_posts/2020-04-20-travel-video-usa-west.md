@@ -8,6 +8,4 @@ author: author1
 noindex: true
 ---
 
-{% include youtubelink.html id="https://youtu.be/WPRDQaWOmfY" %}
-
-https://youtu.be/WPRDQaWOmfY
+{% include youtubelink.html id="WPRDQaWOmfY" %}

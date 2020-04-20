@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Programming
+title: programming
 slug: programming
 menu: true
 order: 1

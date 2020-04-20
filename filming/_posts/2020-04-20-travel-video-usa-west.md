@@ -9,3 +9,5 @@ noindex: true
 ---
 
 {% youtube "https://youtu.be/WPRDQaWOmfY" %}
+
+https://youtu.be/WPRDQaWOmfY

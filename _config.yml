@@ -24,15 +24,14 @@ title:                 YMinCoding
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  Coding study blog by YMin
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Coding study blog by YMin".
+  Coding study blog by YMin
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [programming]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -48,8 +47,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Hydejack
-    url:               /hydejack/
+  - title:             Programming
+    url:               /programming/
   - title:             Hyde
     url:               /hyde/
   - title:             Documentation

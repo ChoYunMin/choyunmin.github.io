@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hydejack
-slug: hydejack
+title: programming
+slug: programming
 menu: true
 order: 1
 description: >

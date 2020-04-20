@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-replace-img"
   gem 'jekyll-admin', group: :jekyll_plugins
+  gem "jekyll-youtube"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

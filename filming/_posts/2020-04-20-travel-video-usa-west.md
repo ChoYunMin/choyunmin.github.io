@@ -10,6 +10,8 @@ noindex: true
 
 {% include youtubelink.html id="WPRDQaWOmfY" %}
 
+* * *
+
 2018년 1월 9일부터 2018년 1월 29일까지,
 경희대학교에서 교환학생 기회를 얻어 3주간 미국으로 전공연수를 다녀왔다.
 

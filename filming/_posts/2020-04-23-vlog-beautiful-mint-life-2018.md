@@ -12,10 +12,9 @@ noindex: true
 
 ***
 
-<span style="color:rgb(237,146,130)"> __2018년 5월 12일__ </span>  
+<span style="color:lightcoral"> __2018년 5월 12일__ </span>  
 휴학하고 다음학기를 준비하며 열심히 알바만 하던 시기에,
 함께 일하던 다른 선생님과 함께 다녀오게 된 __인생 첫 Music Festival__
 
 비록 하루종일 비가 쏟아져서 피크닉처럼 즐기진 못했지만
 하루종일 귀 호강하느라 다 극복 가능했다:)
-{:.accent_color}

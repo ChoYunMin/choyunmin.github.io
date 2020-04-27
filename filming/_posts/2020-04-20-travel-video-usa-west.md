@@ -12,7 +12,7 @@ noindex: true
 
 ***
 
-<span style="color: rgb(245,142,120)"> __2018년 1월 9일부터 2018년 1월 29일까지__  </span>  
+<span style="color: var(--highlight-color)"> __2018년 1월 9일부터 2018년 1월 29일까지__  </span>  
 경희대학교에서 교환학생 기회를 얻어 3주간 미국으로 __전공연수__ 를 다녀왔다.
 
 Las Vegas에서 CES2018에 참석할 기회도 얻고, San Diego에서 UC San Diego에 2주간 교환학생 생활을 할 수 있었다. 마지막 비행기 타기 전 LA여행까지, 총 21일.

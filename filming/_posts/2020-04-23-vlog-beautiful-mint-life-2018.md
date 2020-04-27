@@ -11,8 +11,9 @@ noindex: true
 {% include youtubelink.html id="5n4ZnnW48IQ" %}
 
 ***
+<!-- <span style="color: rgb(245,142,120)"> -->
 <!-- <span style="color: var(--gray)"> -->
-<span style="color: rgb(245,142,120)"> __2018년 5월 12일__ </span>  
+<span style="color: var(--highlight-color)"> __2018년 5월 12일__ </span>  
 휴학하고 다음학기를 준비하며 열심히 알바만 하던 시기에,
 함께 일하던 다른 선생님과 함께 다녀오게 된 __인생 첫 Music Festival__
 

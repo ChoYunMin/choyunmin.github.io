@@ -12,7 +12,7 @@ noindex: true
 
 ***
 
-<span style="color: rgb(245,142,120)"> __2018년 6월 25일부터 2018년 6월 28일까지__  </span>  
+<span style="color: var(--highlight-color)"> __2018년 6월 25일부터 2018년 6월 28일까지__  </span>  
 휴학하고 열심히 돈만 벌어온 나를 위한 작은 선물이었다.  
 언니와 함께, 인생 첫 러시아여행!
 

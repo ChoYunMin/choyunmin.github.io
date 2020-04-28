@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Everyday Programming]매일프로그래밍 #11"
+title: "[Everyday Programming]매일프로그래밍 #12"
 description: >
     배열에서 자신을 제외한 나머지 요소들의 곱
 author: author1
@@ -15,9 +15,8 @@ Given an integer array, make each element a product of all element values withou
 
 예제)
 > input: [1, 2, 3, 4, 5]  
-  output: [120, 60, 40, 30, 24]
-
-
+  output: [120, 60, 40, 30, 24]  
+  
   
 [풀이]  
 나누기를 이용하면 정말 쉽게 풀겠지만, 나누기는 사용 금지.  
@@ -28,8 +27,8 @@ Given an integer array, make each element a product of all element values withou
 __[a, b, c, d]__ 를 입력받았다고 가정했을 때 원하는 결과는 __[bcd, acd, abd, abc]__ 이다.
 이를 풀어서 써보면  
 <span style="color: #ED908C">1</span> <span style="color: #A1CEAB">b c d</span>  
-<span style="color: #ED908C">a</span> <span style="color: #A1CEAB">c d</span>  
-<span style="color: #ED908C">a b</span> <span style="color: #A1CEAB">d</span>  
+<span style="color: #ED908C">a </span>  <span style="color: #A1CEAB"> c d</span>  
+<span style="color: #ED908C">a b </span>  <span style="color: #A1CEAB"> d</span>  
 <span style="color: #ED908C">a b c</span> <span style="color: #A1CEAB">1</span>  
 이렇게 나누어진다.  
 이렇게 배열을 2개 만들어서 곱해주면 O(n)으로 풀 수 있다.
@@ -74,5 +73,5 @@ int main() {
 }
 ~~~
 
-*풀이 참고: https://cornswrold.tistory.com/62*
-###### *문제 출처 - 2019매일프로그래밍*
+*풀이 참고: https://cornswrold.tistory.com/62*  
+*문제 출처 - 2019매일프로그래밍*

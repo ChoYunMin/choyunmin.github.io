@@ -21,8 +21,7 @@ Given a string, find the longest substring that does not have duplicate characte
 
 > Input: “abbbcedd”  
   Output: 4 // “bced”
-
-
+  
 
 [풀이]  
 제일 먼저 생각한 방법은 __이중for문__ 을 이용한 방법이었다.  

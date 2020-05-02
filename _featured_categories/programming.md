@@ -10,3 +10,5 @@ description: >
   You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
   Open `_featured_tags/hydejack.md` to edit this text.
 ---
+
+<input type="button" name="All" value="All" onclick="location.href='/categories/Algorithm/'">

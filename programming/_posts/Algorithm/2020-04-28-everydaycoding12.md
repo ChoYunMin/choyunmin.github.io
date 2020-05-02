@@ -4,6 +4,7 @@ title: "[Everyday Programming]매일프로그래밍 #12"
 description: >
     배열에서 자신을 제외한 나머지 요소들의 곱
 author: author1
+category: [Algorithm]
 ---
 
 [문제]  

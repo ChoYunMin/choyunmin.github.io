@@ -1,23 +1,32 @@
 ---
-layout: default
+layout: base
 ---
 <!--Yunmin made-->
-<style>
-    ul{
-       list-style:none;
-       }
-</style>
-<ul class="posts-list">
-    {% assign category = page.category | default: page.title %}
-    {% for post in site.categories[category] %}
+{% assign category = page.category | default: page.title %}
 
-    <li>
-        <a href="{{ site.baseurl }}{{post.url}}">
-            {{post.title}}
-        </a>
-        <small>{{ post.date | date_to_string }}</small>
+{% if page.title.size > 0 %}
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+  <hr class="sr-only"/>
+{% endif %}
 
-    </li>
+{{ content }}
 
-    {% endfor %}
-</ul>
+{% assign date_formats  = site.data.strings.date_formats               %}
+{% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
+{% assign list_entry    = date_formats.list_entry    | default:"%d %b" %}
+
+{% for post in site.categories[category] %}
+  {% assign currentdate = post.date | date:list_group_by %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 id="{{ list_group_by | slugify }}-{{ currentdate | slugify }}" class="hr">{{ currentdate }}</h2>
+    <ul class="related-posts">
+    {% assign date = currentdate %}
+  {% endif %}
+  {% include components/post-list-item.html post=post format=list_entry %}
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+<!--Yunmin made-->

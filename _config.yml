@@ -49,6 +49,8 @@ author:
 menu:
   - title:             Programming
     url:               /programming/
+    - title:           Algorithm
+      url:             /programming/_posts/Algorithm/
   - title:             Filming
     url:               /filming/
   - title:             Documentation

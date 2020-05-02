@@ -4,6 +4,7 @@ title: "[Everyday Programming]매일프로그래밍 #10"
 description: >
   중복 없는 가장 긴 서브스트링 찾기
 author: author1
+category: [Algorithm]
 ---
 
 [문제]  

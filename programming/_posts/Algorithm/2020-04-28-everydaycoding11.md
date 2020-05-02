@@ -4,6 +4,7 @@ title: "[Everyday Programming]매일프로그래밍 #11"
 description: >  
     암호화 가능한지 아닌지 확인하기
 author: author1
+category: [Algorithm]
 ---
 
 [문제]  

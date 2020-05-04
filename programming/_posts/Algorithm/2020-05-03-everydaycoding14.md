@@ -7,10 +7,10 @@ author: author1
 category: [Algorithm]
 ---
 
-[문제]
+[문제]  
 문자열 배열(string array)이 주어지면, 제일 긴 공통된 접두사(prefix)의 길이를 찾으시오.  
 
-[Question]
+[Question]  
 Given an array of strings, find the longest common prefix of all strings.  
 
 예제)
@@ -23,7 +23,7 @@ Given an array of strings, find the longest common prefix of all strings.
 > Input: [“dog”, “dogs”, “doge”]  
   Output: 3 // “dog”  
 
-[풀이]
+[풀이]  
 제일 먼저 떠오르는 방법은, 이중 for문으로 한 char씩 검사하는 것이다.  
 혹시 시간복잡도를 O(n)으로 줄일 수 있을까 해서 생각해보았지만 잘 모르겠다. 앞서 말한 풀이의 시간복잡도는 O(n^2)이다.  
 

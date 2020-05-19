@@ -49,6 +49,8 @@ author:
 menu:
   - title:             Programming
     url:               /programming/
+    slug:              programming
+    submenu:           true
   - title:             Filming
     url:               /filming/
   - title:             Documentation

@@ -1,3 +1,17 @@
+<!--Checkbox onclick function-->
+<script type="text/javascript">
+  function Toggle(chk){
+    if(chk.checked == true){
+      var submenu = document.getElementById('submenus');
+      submenu.style.display='';
+    }
+    else{
+      var submenu = document.getElementById('submenus');
+      submenu.style.display='none';
+    }
+  }
+</script>
+
 <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
 <ul>
   {% if site.menu %}
@@ -8,7 +22,7 @@
       {% assign url = node.url | default: node.href %}
       {% assign count = count | plus: 1 %}
       <li>
-        <input type="checkbox" id="list-item-{{ count }}" style="display:none"/><!---->
+        <input type="checkbox" id="list-item-{{ count }}" style="display: none" onclick="Toggle(this)"/><!---->
         <div  class="list-wrapper"><!---->
          <a
             {% if forloop.first %}id="_navigation"{% endif %}
@@ -20,7 +34,7 @@
           </a>
           {% if node.submenu %}<label class="folder" for="list-item-{{ count }}">▾</label>{% endif %}<!---->
         </div> <!---->
-        <ul class="list-body"><!---->
+        <ul class="list-body" style="display:none" id="submenus"><!---->
           {% for subnode in subpages %}<!---->
               {% if subnode.belong == node.slug %}<!---->
                 <li><!---->

@@ -2,7 +2,7 @@
 layout: category
 title: C++
 belong: programming
-menu: false
+submenu: true
 description: >
     C++ in Programming
 ---

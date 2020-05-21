@@ -2,8 +2,8 @@
 layout: category
 title: Algorithm
 belong: programming
-menu: false
+submenu: true
 description: >
     Algorithm in Programming
 ---
-<!--Yunmin made-->
+<!--Yunmin made--> 

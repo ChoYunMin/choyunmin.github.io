@@ -15,7 +15,7 @@
 <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
 <ul>
   {% if site.menu %}
-    {% assign subpages = site.pages | where: "menu", false | sort: "order" %}<!---->
+    {% assign subpages = site.featured_categories | where: "submenu", true | sort: "order" %}<!---->
     {% assign count = 0%}<!---->
 
     {% for node in site.menu %}

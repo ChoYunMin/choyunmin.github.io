@@ -6,8 +6,10 @@ description: >
 author: author1
 category: [C++]
 ---
+<span style="color: var(--highlight-color)"> const는 변수나 함수에 상수성을 적용할 때 사용된다. </span> 변경 불가능한 상태로 만들어 프로그래머나 사용자 모두에게 알리는 것이다. 하지만 때에 따라, 상수성이 제거되어양 할 필요도 있다.  
+
 ### 1. const_cast
-- 형태: **const_cast<바꿀타입>(대상)**  
+- 형태: const_cast<바꿀타입>(대상)  
 - const로 정의된 변수의 상수성을 제거해주는데 사용  
 - 포인터나 참조로만 캐스팅이 가능!  
 - 상수성을 추가도 가능하지만, 굳이..?  (const_cast<const int*> 이런식으로)  

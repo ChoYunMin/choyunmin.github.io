@@ -35,14 +35,14 @@ __Programmer__
 ----------------------
 * * *
 * __Korea Software Congress, South Korea__ <span style="color: gray">/ Dec.2019</span>
-    - “2D Human Joint Points Extraction Using Machine Learning and Adopting 3D Movement to  Character Using Kinect”: presented at the poster section. Awarded the third prize.   
+    - <span style="color: var(--highlight-color)">“2D Human Joint Points Extraction Using Machine Learning and Adopting 3D Movement to  Character Using Kinect”</span>: presented at the poster section. <span style="color: var(--highlight-color)">Awarded the third prize.</span>   
     - Utilized GLUT for displaying 3D motion and MATLAB for skeleton extraction by machine learning  
 * __SIGGRAPH 2019, USA__ <span style="color: gray">/ Jul.2019</span>
     - Exhibited my project as a member of the *Perception and Computer Vision Lab* in Kyung Hee University
-    - “3D Sketch Alive”: A 2D drawing shaped like a human was converted into a 3D character and imitated movement of a real person which was captured by Microsoft Kinect Camera.
+    - <span style="color: var(--highlight-color)">“3D Sketch Alive”</span>: A 2D drawing shaped like a human was converted into a 3D character and imitated movement of a real person which was captured by Microsoft Kinect Camera.
 * __Korea Computer Congress, South Korea__ <span style="color: gray">/ Jun.2019</span>  
-    - “Automated Inspection of Printed Label Using Real-Time Object Detection”: presented at the oral section  
-    - “Automated Management of Food Expiration Date Using Text Recognition”: presented at the poster section. Awarded the second prize.  
+    - <span style="color: var(--highlight-color)">“Automated Inspection of Printed Label Using Real-Time Object Detection”</span>: presented at the oral section  
+    - <span style="color: var(--highlight-color)">“Automated Management of Food Expiration Date Using Text Recognition”</span>: presented at the poster section. <span style="color: var(--highlight-color)">Awarded the second prize.</span>  
 * __International Study in University of California, San Diego, USA__ <span style="color: gray">/ Jan.2018</span>  
     - Participated in a student exchange program and actively took several computer science & engineering courses in English  
 
@@ -53,7 +53,7 @@ __Programmer__
     - Instructed students how to code their own programs with python as a volunteer work  
 * __Internship at KIST Europe Smart Convergence Group, Germany__ <span style="color: gray">/ Aug.2018 - Jan.2019</span>  
     - Developed a windows GUI application with visual C++, connected hardware sensors, tested ethernet communication, and trained EAST algorithm for automated label inspection  
-    - Resulting paper: “Automated Inspection of Printed Label Using Real-Time Object Detection” was presented at Korea Computer Congress 2019  
+    - Resulting paper: <span style="color: var(--highlight-color)">“Automated Inspection of Printed Label Using Real-Time Object Detection”</span> was presented at Korea Computer Congress 2019  
 * __Research Student at Computer Vision Lab in Kyung Hee University, South Korea__ <span sytle="color: gray">/ Mar.2017 - Aug.2017</span>
     - Surveyed some papers related to computer vision and mainly focused on “Robust Road Detection in
 Shadow Conditions”: read, analyzed, and presented my analysis  
@@ -64,15 +64,15 @@ Shadow Conditions”: read, analyzed, and presented my analysis
 📚Publications
 ---------------
 * * *
-* __YM Cho__, SK Lee, “2D Human Joint Points Extraction Using Machine Learning and Adopting 3D
-Movement to Character Using Kinect” in KSC(Korea Software Congress), 2019, Pyeongchang,
+* __YM Cho__, SK Lee, <span style="color: var(--highlight-color)">“2D Human Joint Points Extraction Using Machine Learning and Adopting 3D
+Movement to Character Using Kinect”</span> in KSC(Korea Software Congress), 2019, Pyeongchang,
 Republic of Korea  
-* __YM Cho__, SJ Choi, “Automated Management of Food Expiration Date Using Text Recognition” in
+* __YM Cho__, SJ Choi, <span style="color: var(--highlight-color)">“Automated Management of Food Expiration Date Using Text Recognition”</span> in
 KCC(Korea Computer Congress), 2019, Jeju-Island, Republic of Korea  
-* __YM Cho__, SH Suh, HB Lee, KB Kyoung, HM Oh, JW Hwang, “Automated Inspection of Printed Labels
-Using Real-Time Object Detection” in KCC(Korea Computer Congress), 2019, Jeju-Island, Republic
+* __YM Cho__, SH Suh, HB Lee, KB Kyoung, HM Oh, JW Hwang, <span style="color: var(--highlight-color)">“Automated Inspection of Printed Labels
+Using Real-Time Object Detection”</span> in KCC(Korea Computer Congress), 2019, Jeju-Island, Republic
 of Korea  
-* __YM Cho__, HS Lim, YM Hwang, HL Nam, K Kim, “Developing Subway Using Helper Application”, in
+* __YM Cho__, HS Lim, YM Hwang, HL Nam, K Kim, <span style="color: var(--highlight-color)">“Developing Subway Using Helper Application”</span>, in
 KICS(The Korean Institute of Communications and Information Sciences), 2016, Republic of Korea  
 
 ⚜️Awards & Scholarship

@@ -16,11 +16,11 @@
 
 layout: base
 ---
-
 {% assign plugins = site.plugins | default:site.gems %}
 
 {% if plugins contains 'jekyll-paginate' %}
   {% for post in paginator.posts %}
+    Meeeeerong
     {% include components/post.html post=post no_link_title=page.no_link_title no_excerpt=page.no_excerpt hide_image=page.hide_image %}
   {% endfor %}
 
@@ -30,3 +30,4 @@ layout: base
 For more, see [Jekyll Pagination](https://jekyllrb.com/docs/pagination/).{% endcapture %}
   {% include components/message.html text=text %}
 {% endif %}
+ 
